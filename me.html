@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The hell is this?</title>
+    <style>
+        body {
+            background-color: #2e2e2e;
+            color: #f0f0f0;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #f0f0f0;
+            border-radius: 10px;
+            max-width: 90%;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+        }
+        .description {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #f0f0f0;
+            text-decoration: none;
+        }
+        .social-icons a img {
+            width: 30px;
+            height: 30px;
+            transition: opacity 0.3s;
+        }
+        .social-icons a img:hover {
+            opacity: 0.7;
+        }
+        .skills {
+            margin: 20px 0;
+        }
+        .quote {
+            font-style: italic;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+        @media (min-width: 768px) {
+            .container {
+                max-width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="ane.jpg" alt="Dharma Mar'ie Satoto" class="profile-pic">
+        <h1>Dharma Marie S</h1>
+        <p class="description">Sleepyhead and oversleeping</p>
+        <div class="quote">
+            "Soda water and noodle is the best"
+        </div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/dhar.marie?igsh=MTYwZXdxYmR3YmwyaQ==" target="_blank">
+                <img src="ig.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/081331830229" target="_blank">
+                <img src="wa.png" alt="WhatsApp">
+            </a>
+            <a href="https://steamcommunity.com/id/marierose_" target="_blank">
+                <img src="steam.png" alt="Steam">
+            </a>
+        </div>
+        <footer>
+            &copy; 2024 Dharma Marie S
+        </footer>
+    </div>
+</body>
+</html>
